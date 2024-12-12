@@ -10,7 +10,7 @@ import (
 
 func main() {
 	fmt.Println("Server starting.............")
-
+	// this is just a comment to check the pipeline
 	// Serve static files from the ./static directory
 	server := http.FileServer(http.Dir("./static"))
 	http.Handle("/", server)
